@@ -1,3 +1,3 @@
-import TodosListPageComponent from "~/features/todos/components/todosListPageComponent";
+import TodosListPage from "~/features/todos/pages/todosListPage";
 
-export default TodosListPageComponent
+export default TodosListPage

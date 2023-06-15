@@ -24,7 +24,7 @@ function MainMenu() {
             <Popover.Button>
                 <Bars3Icon className='h-8' />
             </Popover.Button>
-            <Popover.Panel className="absolute bg-stone-800 w-10/12 border border-white p-2">
+            <Popover.Panel className="absolute bg-stone-800 border border-white p-2">
                 <Greeting />
                 <hr />
                 {
