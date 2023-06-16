@@ -31,7 +31,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: ./my-t3-app
-          file: Dockerfile
+          file: ./my-t3-app/Dockerfile
           push: true
           build-args: |
             version=${{ steps.tag.outputs.tag }}
