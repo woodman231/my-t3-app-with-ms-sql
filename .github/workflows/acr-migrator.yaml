@@ -30,6 +30,8 @@ jobs:
       - name: Build & Push
         uses: docker/build-push-action@v4
         with:
+          context: ./my-t3-app
+          file: MigratorDockerfile
           push: true
           build-args: |
             version=${{ steps.tag.outputs.tag }}
